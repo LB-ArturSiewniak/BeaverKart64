@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8750C91-7BD8-48A6-8128-F804C0D0D68A}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E8750C91-7BD8-48A6-8128-F804C0D0D68A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sample1" ID="{54D7A16E-6532-4BA8-9568-8E630E2496CF}" ShortID="662246063">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{5F4DAD3A-65AE-4922-814F-23EA68E02674}" ShortID="1056268870">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="New_Game_Parameter" ID="{E6555072-5ED5-4B8E-ABE9-14BE71546A37}" WorkUnitID="{25429EA7-DBFC-4A49-A0F6-E02EB7BAB66D}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{20C67EA8-8B09-4DAD-9BF1-6C84FBAF7CAF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{187F9865-7DE1-48ED-B4C8-4EAE1A866C41}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A13EC0C-E0CA-46E4-AAA3-B0271D451DD3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sample1" ID="{F2ED0159-9931-4AED-937B-74396C48BC3F}">
+							<Language>SFX</Language>
+							<AudioFile>Sample1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="235214404"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Sample1" ID="{F2ED0159-9931-4AED-937B-74396C48BC3F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

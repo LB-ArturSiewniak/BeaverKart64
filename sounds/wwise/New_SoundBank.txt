@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	788884573	Stop			\Default Work Unit\Stop	
+	1256202815	Play			\Default Work Unit\Play	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3671138082	New_Game_Parameter			\Default Work Unit\New_Game_Parameter	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	235214404	Sample1	C:\Users\GPC-610\.o3de\Projects\BeaverKart64\sounds\wwise_project\.cache\Windows\SFX\Sample1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sample1		2596928
+

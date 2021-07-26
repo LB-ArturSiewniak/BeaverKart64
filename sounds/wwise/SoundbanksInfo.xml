@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\GPC-610\.o3de\Projects\BeaverKart64\sounds\wwise_project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\GPC-610\.o3de\Projects\BeaverKart64\sounds\wwise_project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\GPC-610\.o3de\Projects\BeaverKart64\sounds\wwise\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\GPC-610\.o3de\Projects\BeaverKart64\sounds\wwise_project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="838519228">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="1519584674">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Default Work Unit\Play">
+					<IncludedMemoryFiles>
+						<File Id="235214404" Language="SFX">
+							<ShortName>Sample1.wav</ShortName>
+							<Path>SFX\Sample1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="788884573" Name="Stop" ObjectPath="\Events\Default Work Unit\Stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="235214404" Language="SFX">
+					<ShortName>Sample1.wav</ShortName>
+					<Path>SFX\Sample1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="3671138082" Name="New_Game_Parameter" ObjectPath="\Game Parameters\Default Work Unit\New_Game_Parameter"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
