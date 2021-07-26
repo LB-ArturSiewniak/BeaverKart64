@@ -1,0 +1,15 @@
+{
+    "project_name": "BeaverKart64",
+    "origin": "The primary repo for BeaverKart64 goes here: i.e. http://www.mydomain.com",
+    "license": "What license BeaverKart64 uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "BeaverKart64",
+    "summary": "A short description of BeaverKart64.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "BeaverKart64"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-install"
+}

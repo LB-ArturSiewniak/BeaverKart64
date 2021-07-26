@@ -1,0 +1,14 @@
+{
+    "Amazon":
+    {
+        "BeaverKart64.Assets":
+        {
+            "SourcePaths":
+            [
+                "Assets",
+                "ShaderLib",
+                "Shaders"
+            ]
+        }
+    }
+}
